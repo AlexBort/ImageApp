@@ -1,2 +1,3 @@
+include ':interactor'
 include ':app'
 rootProject.name = "ImageApp"
