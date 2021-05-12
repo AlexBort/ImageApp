@@ -1,4 +1,3 @@
 package com.example.mvvm.androidacademy.domain
 
-data class PhotoDetails(val id:String) {
-}
+data class PhotoInfo(val id: String)
