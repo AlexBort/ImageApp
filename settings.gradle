@@ -1,5 +1,4 @@
 include ':domain'
 include ':data'
-include ':interactor'
 include ':app'
 rootProject.name = "ImageApp"
