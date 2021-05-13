@@ -1,7 +1,5 @@
-package com.example.mvvm.androidacademy.data.api;
+package com.example.mvvm.androidacademy.data.api
 
-public class ApiConnector {
-
-    
-
+class ApiConnector(val apiService: ApiService) {
+    suspend fun getPhotoList() = apiService.getPhotoList()
 }

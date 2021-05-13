@@ -4,7 +4,7 @@ import retrofit2.http.GET
 
 interface ApiService {
 
-    @GET("") // todo
+    @GET("app/get_photos") // todo
     suspend fun getPhotoList()
 
     @GET("") // todo

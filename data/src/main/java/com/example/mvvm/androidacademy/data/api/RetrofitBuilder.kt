@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitBuilder {
 
-    const val BASE_URL = "https://5e510330f2c0d300147c034c.mockapi.io/"
+    const val BASE_URL = "https://us-central1-testrest-319e0.cloudfunctions.net/"
 
     private fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
